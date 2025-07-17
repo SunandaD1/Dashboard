@@ -2,9 +2,9 @@ import React from 'react'
 import { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill, BsAwardFill, BsHeadphones} from "react-icons/bs"
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line, PieChart, Pie } from "recharts"
 import { useState } from 'react';
-import drake2Img from "../public/drake2.png";
-import drake from "../public/image.png";
-import drake3 from "../public/drake3.png";
+import drake2Img from "./assets/drake2.png";
+import drake from "./assets/image.png";
+import drake3 from "./assets/drake3.png";
 
 import { useTranslation } from 'react-i18next';
 
