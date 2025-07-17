@@ -2,6 +2,9 @@ import React from 'react'
 import { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill, BsAwardFill, BsHeadphones} from "react-icons/bs"
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line, PieChart, Pie } from "recharts"
 import { useState } from 'react';
+import drake2Img from "../public/drake2.png";
+import drake from "../public/image.png";
+import drake3 from "../public/drake3.png";
 
 import { useTranslation } from 'react-i18next';
 
@@ -148,7 +151,7 @@ function Home() {
                 <div className='card'>
                     <div className='card-inner' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
                         <img
-                            src="/drake2.png"
+                            src={drake2Img}
                             alt="Drake"
                             className="card_icon"
                             width="200"
@@ -159,7 +162,7 @@ function Home() {
                 <div className='card'>
                     <div className='card-inner' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
                         <img
-                            src="/image.png"
+                            src={drake}
                             alt="Drake"
                             className="card_icon"
                             width="230"
@@ -279,7 +282,7 @@ function Home() {
                 </div>
                 <div className="image-right" >
                     <img
-                    src="/drake3.png"
+                    src={drake3}
                     alt="Drake performing"
                     width={250}
                     height={250}
